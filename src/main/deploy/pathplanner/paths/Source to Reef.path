@@ -1,0 +1,54 @@
+{
+  "version": "2025.0",
+  "waypoints": [
+    {
+      "anchor": {
+        "x": 2.145,
+        "y": 6.247999999999999
+      },
+      "prevControl": null,
+      "nextControl": {
+        "x": 3.157758866725435,
+        "y": 5.8399573059790875
+      },
+      "isLocked": false,
+      "linkedName": "Loading dock"
+    },
+    {
+      "anchor": {
+        "x": 3.6757500000000003,
+        "y": 5.49725
+      },
+      "prevControl": {
+        "x": 3.2283228829839308,
+        "y": 5.773894574436744
+      },
+      "nextControl": null,
+      "isLocked": false,
+      "linkedName": null
+    }
+  ],
+  "rotationTargets": [],
+  "constraintZones": [],
+  "pointTowardsZones": [],
+  "eventMarkers": [],
+  "globalConstraints": {
+    "maxVelocity": 3.0,
+    "maxAcceleration": 3.0,
+    "maxAngularVelocity": 540.0,
+    "maxAngularAcceleration": 720.0,
+    "nominalVoltage": 12.0,
+    "unlimited": false
+  },
+  "goalEndState": {
+    "velocity": 0,
+    "rotation": 29.604450746004893
+  },
+  "reversed": false,
+  "folder": null,
+  "idealStartingState": {
+    "velocity": 0,
+    "rotation": 125.39479584498703
+  },
+  "useDefaultConstraints": true
+}
