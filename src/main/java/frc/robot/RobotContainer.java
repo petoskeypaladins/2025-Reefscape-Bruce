@@ -135,7 +135,6 @@ public class RobotContainer {
     private final AlgaeReefRemove m_AlgaeReefRemove3 = new AlgaeReefRemove(); 
     private final AlgaeReefWheels m_AlgaeReefWheels = new AlgaeReefWheels();
     private final AlgaeReefRemoveReverse m_AlgaeReefRemoveReverse = new AlgaeReefRemoveReverse();
-    private final AlgaeArmOutAndSpin m_AlgaeArmOutAndSpin = new AlgaeArmOutAndSpin(); 
     private final ReefLineUp m_ReefLineUp = new ReefLineUp();
     private final AlgaeReefRemove m_AutonAlgaeReefRemove = new AlgaeReefRemove();
     private final AlgaeReefRemove m_ManualAlgaeReefRemove = new AlgaeReefRemove();
@@ -301,8 +300,6 @@ public class RobotContainer {
       //   .onTrue(teleopL2());
       m_CommandJoystick.pov(90).onTrue(teleopL2());
       m_CommandJoystick.pov(270).onTrue(teleopL3());
-
-
       m_CommandJoystick.button(11).whileTrue(m_AlgaeReefRemoveReverse);
       //m_CommandJoystick.button(7).whileTrue(m_ManualAlgaeReefRemove);
       m_CommandJoystick.button(7).whileTrue(m_AlgaeReefRemove);
